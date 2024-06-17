@@ -22,10 +22,6 @@ import static com.myproject.creditrewardservice.utility.Constants.RESOURCE_NOT_F
 public class CreditRewardServiceController {
     @Autowired
     CustomerRewardService customerRewardService;
-    @Autowired
-    CustomerRepository customerRepository;
-    @Autowired
-    TransactionRepository transactionRepository;
 
     @GetMapping(value = "/{customerId}/rewards",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<CustomerInfo> getRewardsByCustomerId(@PathVariable("customerId") Long customerId){

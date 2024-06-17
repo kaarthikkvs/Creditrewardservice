@@ -29,8 +29,6 @@ public class CreditRewardServiceControllerTest {
 
     @Mock
     CustomerRewardServiceImpl customerRewardService;
-    @Mock
-    CustomerRepository customerRepository;
     @BeforeEach
     public void init() {
         this.mockMvc = MockMvcBuilders.standaloneSetup(creditRewardServiceController).build();
