@@ -14,4 +14,4 @@ Please check doc file provided in the project
 
 Please follow the execution Steps document added in GIT directly under the project named
 Charted Assignment Execution steps.doc
-https://github.com/kaarthikkvs/Creditrewardservice
+https://github.com/kaarthikkvs/Creditrewardservice/blob/main/Charter%20Assignment%20Execution%20steps.docx
